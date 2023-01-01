@@ -12,9 +12,9 @@ import os
 # general settings
 WORKERS: "int" = int(os.getenv("WORKERS", 100))
 PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: "int" = int(os.getenv("APP_ID", 111))
-APP_HASH = os.getenv("APP_HASH", "111")
-TOKEN = os.getenv("TOKEN", "3703WLI")
+APP_ID: "int" = int(os.getenv("APP_ID", "6534707"))
+APP_HASH = os.getenv("APP_HASH", "4bcc61d959a9f403b2f20149cbbe627a")
+TOKEN = os.getenv("TOKEN", "5442493323:AAHPw8TNe0hh2zCAQKm_2O2o6KdmQ3Okgf8")
 
 REDIS = os.getenv("REDIS")
 
@@ -37,10 +37,10 @@ COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink"
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "1430593323")
 
 # limitation settings
-AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "")
+AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "1430593323")
 # membership requires: the format could be username/chat_id of channel or group
 REQUIRED_MEMBERSHIP: "str" = os.getenv("REQUIRED_MEMBERSHIP", "")
 
